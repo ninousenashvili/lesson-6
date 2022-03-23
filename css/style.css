@@ -49,6 +49,16 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
+.aladin{
+    width: 120px;
+    position: absolute;
+    top:195px;
+    left: 10%;
+    animation-name: aladin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
 /*image animations */
 
 @keyframes jasmine {
@@ -64,9 +74,12 @@
 }
 
 @keyframes wheelchair {
-    0%  {transform: scale(1.0);}
+    0%  {transform: scale(0.0);}
     100%{transform: scale(2.0);}
 }
 
+@keyframes aladin{
+    100%{left:11%}
+}
 
 
